@@ -147,3 +147,217 @@ Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // Tcl Message: Scanning sources... Finished scanning sources 
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/2025.2/Vivado/data/ip'. 
 // [GUI Memory]: 141 MB (+19322kb) [00:00:20]
+// Project name: AD9361_QPSK; location: C:/Users/21141/Desktop/AD9361_QPSK/prj; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 1770.398 ; gain = 157.684 
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 152 MB (+3851kb) [00:00:26]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_init (ad9361_init.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,176 MB. GUI used memory: 82 MB. Current time: 4/21/26, 2:34:54 PM CST
+// Elapsed time: 13 seconds
+String[] filenames31467 = {"C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_ctrl.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_unit.v", "C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v"};
+setFileChooser(filenames31467);
+// Elapsed time: 14 seconds
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 36 seconds
+dismissDialog("Add Sources"); // d (dialog0)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_unit.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_ctrl.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v} 
+// [Engine Memory]: 1,184 MB (+1190kb) [00:01:07]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 48s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 50s
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 52s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 54s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v)]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), uut_ad9361_init : ad9361_init (ad9361_init.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 56s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 58s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01m:00s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01m:02s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,187 MB. GUI used memory: 82 MB. Current time: 4/21/26, 2:35:34 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v), i_path_inst : xil_defaultlib.ipath_generator]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v), q_path_inst : xil_defaultlib.qpath_generator]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // ah (PAResourceItoN.MainMenuMgr_VIEW, View)
+selectMenu(PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, "Unselect Type"); // am (PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, Unselect Type)
+selectMenu(PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, "Unselect Type"); // am (PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, Unselect Type)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // ah (PAResourceItoN.MainMenuMgr_VIEW, View)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ah (RDIResource.MainWinMenuMgr_LAYOUT, Layout)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ah (RDIResource.MainWinMenuMgr_LAYOUT, Layout)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v)]", 8, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,191 MB. GUI used memory: 84 MB. Current time: 4/21/26, 2:36:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,194 MB. GUI used memory: 84 MB. Current time: 4/21/26, 2:36:54 PM CST
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), uut_ad9361_init : ad9361_init (ad9361_init.v), uut_ad9361_spi_ctrl : ad9361_spi_ctrl (ad9361_spi_ctrl.v)]", 6, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), uut_ad9361_init : ad9361_init (ad9361_init.v), uut_ad9361_spi_ctrl : ad9361_spi_ctrl (ad9361_spi_ctrl.v)]", 6, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 25 seconds
+selectCodeEditor("ad9361_spi_ctrl.v", 72, 308); // ae (ad9361_spi_ctrl.v)
+selectCodeEditor("ad9361_spi_ctrl.v", 55, 307); // ae (ad9361_spi_ctrl.v)
+selectCodeEditor("ad9361_spi_ctrl.v", 55, 307, false, false, false, false, true); // ae (ad9361_spi_ctrl.v) - Double Click
+selectCodeEditor("ad9361_spi_ctrl.v", 406, 340); // ae (ad9361_spi_ctrl.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:37:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:38:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:38:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:39:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:40:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:40:57 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:41:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:42:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:42:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:43:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:44:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:45:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:45:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:46:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:47:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:47:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:48:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:49:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:49:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:50:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:51:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:51:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:52:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:53:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:53:46 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:54:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:55:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:55:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:56:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:57:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:57:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:58:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:59:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 2:59:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:00:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:01:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:01:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:02:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:03:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:03:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:04:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:05:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:05:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:06:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:07:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:07:57 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:08:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:09:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:09:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:10:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:11:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:12:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:12:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:13:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:14:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:14:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:15:22 PM CST
+// Elapsed time: 2276 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint  
+// Tcl Message: Command: synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint 
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020' INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 2188 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2333.539 ; gain = 476.277 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10] 
+// Tcl Message: ERROR: [Synth 8-439] module 'clk_wiz_0' not found [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:51] ERROR: [Synth 8-6156] failed synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2456.219 ; gain = 598.957 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: synthesize failed 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 6 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2456.219 ; gain = 610.191 
+// Tcl Message: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.  
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// 'a' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+selectButton("OptionPane.button", "OK", "Run Linter Failed"); // JButton (OptionPane.button)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // ab
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:16:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:16:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:17:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:18:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:18:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:19:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:20:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:20:46 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:21:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 85 MB. Current time: 4/21/26, 3:22:07 PM CST
+// Elapsed time: 390 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bb_iq_generator.v", 1); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : bb_iq_generator (bb_iq_generator.v)]", 7, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ap (RDIResourceCommand.RDICommands_DELETE, global_delete_menu)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Remove Sources"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // X (dialog2)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 48m:11s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 48m:13s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : xil_defaultlib.bb_iq_generator]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 86 MB. Current time: 4/21/26, 3:22:47 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ad9361_tx_top (ad9361_tx_top.v), ad9361_unit_i0 : ad9361_unit (ad9361_unit.v), bb_iq_generator_inst : xil_defaultlib.bb_iq_generator]", 7, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 86 MB. Current time: 4/21/26, 3:23:27 PM CST

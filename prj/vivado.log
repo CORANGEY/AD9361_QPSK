@@ -46,3 +46,29 @@ add_files -norecurse {C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v C:/
 WARNING: [filemgmt 56-12] File 'C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v' cannot be added to the project because it already exists in the project, skipping this file
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
+synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint 
+Command: synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2188
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2333.539 ; gain = 476.277
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11145] root scope declaration is not allowed in Verilog 95/2K mode [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v:5155]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10]
+ERROR: [Synth 8-439] module 'clk_wiz_0' not found [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:51]
+ERROR: [Synth 8-6156] failed synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2456.219 ; gain = 598.957
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2456.219 ; gain = 610.191
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+remove_files  C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v

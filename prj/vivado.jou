@@ -27,3 +27,5 @@ update_compile_order -fileset sources_1
 add_files -norecurse {C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_unit.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_ctrl.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v}
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
+synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint 
+remove_files  C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v
