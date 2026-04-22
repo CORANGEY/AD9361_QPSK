@@ -361,3 +361,4 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
 selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
 // HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 86 MB. Current time: 4/21/26, 3:23:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 86 MB. Current time: 4/21/26, 3:24:08 PM CST
