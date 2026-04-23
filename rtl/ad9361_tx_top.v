@@ -8,8 +8,10 @@
 `timescale 1ns / 1ps
 
 module ad9361_tx_top(
-	input 					sys_clk_p_200M,		// 200MHz LVDS differential clock input P.
-	input 					sys_clk_n_200M,		// 200MHz LVDS differential clock input N.
+	// input 					sys_clk_p_200M,		// 200MHz LVDS differential clock input P.
+	// input 					sys_clk_n_200M,		// 200MHz LVDS differential clock input N.
+
+	input 					sys_clk_200M,       // 200MHz single-ended clock input
 	input 					sys_rst,			// Input high valid reset signal.
 	
 	output 					ad9361_spi_cs,		// AD9361 SPI control interface "CSn" signal.
@@ -47,13 +49,20 @@ module ad9361_tx_top(
 	/* 20MHz SPI interface clock. */
 	wire sys_clk_20M;
 	
-	/* Clock manager module inst. */
-	clk_wiz_0 clk_wiz_i0 (
-		.clk_out1(sys_clk_20M),				// Used to AD9361 SPI interface, 20MHz.
-		.reset(sys_rst),
-		.clk_in1_p(sys_clk_p_200M),
-		.clk_in1_n(sys_clk_n_200M)
-	);
+//	/* Clock manager module inst. */
+	// clk_wiz_0 clk_wiz_i0 (
+	// 	.clk_out1(sys_clk_20M),				// Used to AD9361 SPI interface, 20MHz.
+	// 	.reset(sys_rst),
+	// 	.clk_in1_p(sys_clk_p_200M),
+	// 	.clk_in1_n(sys_clk_n_200M)
+	// );
+	
+	clk_wiz_0 clk_wiz_i0(
+
+    .clk_out1(sys_clk_20M),     
+    .reset(sys_rst), 			
+    .clk_in1(sys_clk_200M)      
+);
 	
 	/**
 	 * AD9361 init and data receiv module. Init the AD9361 via SPI interface and receive the 

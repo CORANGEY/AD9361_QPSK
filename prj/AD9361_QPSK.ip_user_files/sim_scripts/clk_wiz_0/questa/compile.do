@@ -9,6 +9,7 @@ vmap xil_defaultlib questa_lib/msim/xil_defaultlib
 
 vlog -work xpm  -incr -mfcu  -sv "+incdir+../../../ipstatic" "+incdir+E:/ProgramFiles/Xilinx/2025.2/Vivado/data/rsb/busdef" \
 "E:/ProgramFiles/Xilinx/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"E:/ProgramFiles/Xilinx/2025.2/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 
 vcom -work xpm  -93  \
 "E:/ProgramFiles/Xilinx/2025.2/Vivado/data/ip/xpm/xpm_VCOMP.vhd" \

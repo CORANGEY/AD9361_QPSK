@@ -56,11 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "clk_wiz_0_synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
 set_param general.usePosixSpawnForFork 1
-set_param synth.incrementalSynthesisCache C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-35440-CORANGEY_BOOK/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -72,14 +68,14 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.cache/wt [current_project]
 set_property parent.project_path C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.xpr [current_project]
-set_property XPM_LIBRARIES XPM_CDC [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+read_ip -quiet C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
 set_property used_in_implementation false [get_files -all c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
