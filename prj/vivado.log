@@ -3,10 +3,10 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Tue Apr 21 14:34:07 2026
-# Process ID         : 35440
+# Start of session at: Thu Apr 23 21:38:46 2026
+# Process ID         : 3972
 # Current directory  : C:/Users/21141/Desktop/AD9361_QPSK/prj
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent42580 C:\Users\21141\Desktop\AD9361_QPSK\prj\AD9361_QPSK.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent5080 C:\Users\21141\Desktop\AD9361_QPSK\prj\AD9361_QPSK.xpr
 # Log file           : C:/Users/21141/Desktop/AD9361_QPSK/prj/vivado.log
 # Journal file       : C:/Users/21141/Desktop/AD9361_QPSK/prj\vivado.jou
 # Running On         : CORANGEY_BOOK
@@ -19,7 +19,7 @@
 # Host memory        : 16886 MB
 # Swap memory        : 16886 MB
 # Total Virtual      : 33772 MB
-# Available Virtual  : 9882 MB
+# Available Virtual  : 12554 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.xpr
@@ -28,7 +28,6 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
@@ -40,35 +39,4 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/2025.2/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 1770.398 ; gain = 157.684
-update_compile_order -fileset sources_1
-add_files -norecurse {C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_unit.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_ctrl.v C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v}
-WARNING: [filemgmt 56-12] File 'C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v' cannot be added to the project because it already exists in the project, skipping this file
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint 
-Command: synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 2188
----------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2333.539 ; gain = 476.277
----------------------------------------------------------------------------------
-Clean up Linter database...
-WARNING: [Synth 8-11145] root scope declaration is not allowed in Verilog 95/2K mode [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v:5155]
-INFO: [Synth 8-6157] synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10]
-ERROR: [Synth 8-439] module 'clk_wiz_0' not found [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:51]
-ERROR: [Synth 8-6156] failed synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10]
----------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2456.219 ; gain = 598.957
----------------------------------------------------------------------------------
-synthesize failed
-INFO: [Common 17-83] Releasing license: Synthesis
-6 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2456.219 ; gain = 610.191
-ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
-remove_files  C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 1809.934 ; gain = 265.750
