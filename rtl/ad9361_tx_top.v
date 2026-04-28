@@ -3,6 +3,7 @@
  * @brief 		AD9361 receive function program, top module file.
  * @author 		Tang Tao, DSP Lab.
  * @date 		2017.10.22
+ 单端p0、p1，用cmos接口
  *
  **/
 `timescale 1ns / 1ps
