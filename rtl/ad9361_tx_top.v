@@ -29,11 +29,11 @@ module ad9361_tx_top(
 	
 	input 					data_clk,			// AD9361 data interface clock signal input.
 	input 					rx_frame,			// AD9361 data interface frame signal input.
-	input signed   [11 : 0]	p0_d,				// AD9361 data interface 12-bit data signal input.
+	input signed   [11 : 0]	p1_d,				// AD9361 data interface 12-bit data signal input.
 
 	output					fb_clk,				// AD9361 data interface clock signal output.
 	output					tx_frame,			// AD9361 data interface frame signal output.
-	output signed [11 : 0]	p1_d,				// AD9361 data interface 12-bit data signal output.
+	output signed [11 : 0]	p0_d,				// AD9361 data interface 12-bit data signal output.
 	
 	output 		   [7 : 0]  led,				// 8-bit LED, identify the status of the AD9361 init process.
 	
@@ -101,16 +101,16 @@ module ad9361_tx_top(
 
 		.data_clk(rx_data_clk),
 		.rx_frame(rx_frame),
-		.p0_d(p0_d),
+		.p1_d(p1_d),
 		.fb_clk(fb_clk),
 		.tx_frame(tx_frame),
-		.p1_d(p1_d),
+		.p0_d(p0_d),
 
 		.led(led)
 	);
 	
 	/* User GPIO pins, for debug use. */
 	assign user_gpio_p = rx_data_clk;
-	// assign user_gpio_n = p1_d[1];
+	// assign user_gpio_n = p0_d[1];
 
 endmodule

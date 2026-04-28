@@ -32,10 +32,10 @@ module ad9361_unit(
 	// AD9361 data interface.
 	input 					data_clk,			// DATA_CLK		
 	input 					rx_frame,			// RX_FRAME
-	input signed [11 : 0]	p0_d,				// P1_DATA
+	input signed [11 : 0]	p1_d,				// p0_DATA
 	output 					fb_clk,				// FB_CLK
 	output 					tx_frame,			// TX_FRAME
-	output signed [11 : 0]	p1_d,				// P0_DATA
+	output signed [11 : 0]	p0_d,				// p1_DATA
 	
 	// LED status signals.
 	output 		 [7 : 0]  	led
@@ -73,13 +73,13 @@ bb_iq_generator_inst
 	.q_path(q_path)
 );
 
-/*convert two path data to individual path for p1_d port*/
+/*convert two path data to individual path for p0_d port*/
 ad9361_txdata ad9361_txdata_uut(
 	.sys_rst(sys_rst),
 	.fb_clk(fb_clk),
 	.bb_i_path(i_path),
 	.bb_q_path(q_path),
-	.bb_iq(p1_d),
+	.bb_iq(p0_d),
 	.tx_frame(tx_frame)
 );
 

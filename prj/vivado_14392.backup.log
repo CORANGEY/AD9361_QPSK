@@ -1,0 +1,183 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Apr 23 23:49:14 2026
+# Process ID         : 14392
+# Current directory  : C:/Users/21141/Desktop/AD9361_QPSK/prj
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18264 C:\Users\21141\Desktop\AD9361_QPSK\prj\AD9361_QPSK.xpr
+# Log file           : C:/Users/21141/Desktop/AD9361_QPSK/prj/vivado.log
+# Journal file       : C:/Users/21141/Desktop/AD9361_QPSK/prj\vivado.jou
+# Running On         : CORANGEY_BOOK
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13500HX
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16886 MB
+# Swap memory        : 19049 MB
+# Total Virtual      : 35935 MB
+# Available Virtual  : 4562 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/ProgramFiles/Xilinx/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1823.348 ; gain = 224.164
+update_compile_order -fileset sources_1
+synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint 
+Command: synth_design -top ad9361_tx_top -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11516
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2339.215 ; gain = 513.359
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11145] root scope declaration is not allowed in Verilog 95/2K mode [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v:5155]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_tx_top' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-14392-CORANGEY_BOOK/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-14392-CORANGEY_BOOK/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [E:/ProgramFiles/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [E:/ProgramFiles/Xilinx/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_unit' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_unit.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_init' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v:11]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_spi_ctrl' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_ctrl.v:11]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_lut.v:16]
+INFO: [Synth 8-6157] synthesizing module 'ad936_spi_drv' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v:11]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'ad936_spi_drv' (3#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_spi_ctrl' (4#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_ctrl.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_init' (5#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_init.v:11]
+INFO: [Synth 8-6157] synthesizing module 'bb_iq_generator' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v:8]
+	Parameter DATA_SIZE bound to: 7200 - type: integer 
+	Parameter ADDR_WIDTH bound to: 13 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ipath_generator' [C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-14392-CORANGEY_BOOK/realtime/ipath_generator_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ipath_generator' (6#1) [C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-14392-CORANGEY_BOOK/realtime/ipath_generator_stub.v:6]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'ipath_generator' is unconnected for instance 'i_path_inst' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v:28]
+WARNING: [Synth 8-7023] instance 'i_path_inst' of module 'ipath_generator' has 5 connections declared, but only 4 given [C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v:28]
+INFO: [Synth 8-6157] synthesizing module 'qpath_generator' [C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-14392-CORANGEY_BOOK/realtime/qpath_generator_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'qpath_generator' (7#1) [C:/Users/21141/Desktop/AD9361_QPSK/prj/.Xil/Vivado-14392-CORANGEY_BOOK/realtime/qpath_generator_stub.v:6]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'qpath_generator' is unconnected for instance 'q_path_inst' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v:35]
+WARNING: [Synth 8-7023] instance 'q_path_inst' of module 'qpath_generator' has 5 connections declared, but only 4 given [C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'bb_iq_generator' (8#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/bb_iq_generator.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_txdata' [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_txdata' (9#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_unit' (10#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_unit.v:12]
+WARNING: [Synth 8-3848] Net user_gpio_n in module/entity ad9361_tx_top does not have driver. [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_tx_top' (11#1) [C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v:10]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2479.387 ; gain = 653.531
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Apr 23 23:50:32 2026
+| Host         : CORANGEY_BOOK running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+------------------+--------------+----------+
+| Rule ID   | Severity         | # Violations | # Waived |
++-----------+------------------+--------------+----------+
+| ASSIGN-5  | WARNING          | 1            | 0        |
+| ASSIGN-6  | WARNING          | 1            | 0        |
+| ASSIGN-9  | WARNING          | 1            | 0        |
+| ASSIGN-10 | WARNING          | 3            | 0        |
+| CLOCK-1   | CRITICAL WARNING | 1            | 0        |
+| RESET-3   | CRITICAL WARNING | 1            | 0        |
++-----------+------------------+--------------+----------+
+
+
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'ctrl_out' are not read. First unread bit index is 0. 
+RTL Name 'ctrl_out', Hierarchy 'ad9361_init', File 'ad9361_init.v', Line 29.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'ad9361_reg_data_out' are not read. First unread bit index is 2. 
+RTL Name 'ad9361_reg_data_out', Hierarchy 'ad9361_spi_ctrl', File 'ad9361_spi_ctrl.v', Line 42.
+CRITICAL WARNING: [Synth 37-89] [CLOCK-1]Module 'ad936_spi_drv' has registers with different clock edges. First register: 'ad9361_spi_mosi_reg'. Second register: 'dout_reg_reg'. 
+RTL Name 'ad936_spi_drv', File 'C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_spi_drv.v', Line 120.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'iq_data_clk' declared and are not set.
+RTL Name 'iq_data_clk', Hierarchy 'ad9361_tx_top', File 'C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_tx_top.v', Line 82.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'user_gpio_n' are not set. First unset bit index is 0. 
+RTL Name 'user_gpio_n', Hierarchy 'ad9361_tx_top', File 'ad9361_tx_top.v', Line 41.
+CRITICAL WARNING: [Synth 37-111] [RESET-3]Synchronous reset not found on register bb_q_path_buf1_reg and its enable logic contains synchronous reset in same always/process block.
+RTL Name 'bb_q_path_buf1_reg', Hierarchy 'ad9361_txdata', File 'C:/Users/21141/Desktop/AD9361_QPSK/rtl/ad9361_txdata.v', Line 25.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'p1_d' are not read. First unread bit index is 0. 
+RTL Name 'p1_d', Hierarchy 'ad9361_unit', File 'ad9361_unit.v', Line 35.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'rx_frame' are not read. First unread bit index is 0. 
+RTL Name 'rx_frame', Hierarchy 'ad9361_unit', File 'ad9361_unit.v', Line 34.
+INFO: [Synth 37-85] Total of 8 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2479.387 ; gain = 653.531
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 12 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2479.387 ; gain = 653.531
+launch_runs synth_1 -jobs 20
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Apr 23 23:50:48 2026] Launched synth_1...
+Run output will be captured here: C:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wiz_i0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/ipath_generator/ipath_generator.dcp' for cell 'ad9361_unit_i0/bb_iq_generator_inst/i_path_inst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/qpath_generator/qpath_generator.dcp' for cell 'ad9361_unit_i0/bb_iq_generator_inst/q_path_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2524.496 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 247 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'ad9361_tx_top' is not ideal for floorplanning, since the cellview 'ad9361_spi_ctrl' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz_i0/inst'
+Finished Parsing XDC File [c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz_i0/inst'
+Parsing XDC File [c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz_i0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:54]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:54]
+Finished Parsing XDC File [c:/Users/21141/Desktop/AD9361_QPSK/prj/AD9361_QPSK.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz_i0/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3149.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 3440.965 ; gain = 961.578
+place_ports {led[7]} W9
+place_ports {led[6]} Y9
+place_ports {led[5]} Y8
+place_ports {led[4]} Y6
+place_ports {led[3]} Y7
+place_ports {led[2]} T5
+place_ports {led[1]} V5
+place_ports {led[0]} U7
+set_property package_pin "" [get_ports [list  {p0_d[0]}]]
+set_property IOSTANDARD LV [get_ports [list {p0_d[11]}]]
+ERROR: [Common 17-69] Command failed: Invalid I/O Standard 'LV'. Default I/O Standard is used instead
+place_ports {p0_d[11]} W14
